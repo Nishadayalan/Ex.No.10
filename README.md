@@ -465,28 +465,6 @@ Machine condition and possible maintenance alert.
 ```
 
 
-## Expected Results
-
-The proposed prompt engineering solution successfully demonstrates how structured prompts can improve AI-generated responses for engineering research activities.
-
-Prompt iteration improves the relevance, organization, and completeness of the generated output.
-
-The evaluation process also helps identify inaccurate or unsupported information before the final output is used.
-
-## Future Scope
-
-The AI Research Assistant can be extended to:
-
-* Analyze complete research papers.
-* Connect with verified academic databases.
-* Generate citation-supported research summaries.
-* Create project proposals automatically.
-* Assist with literature review.
-* Generate experiment plans.
-* Support multiple engineering domains.
-* Integrate with academic document management systems.
-* Provide domain-specific prompt templates.
-
 ## Final Presentation Structure
 
 https://docs.google.com/presentation/d/1xYKob1uTPCp16E7v3mOr60TML9pQLTmV/edit?usp=sharing&ouid=105928584738251968990&rtpof=true&sd=true
