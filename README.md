@@ -8,11 +8,11 @@ AI Research Assistant Using Prompt Engineering for Engineering Students
 
 Artificial Intelligence / AI Engineering
 
-## 1. Aim
+##  Aim
 
 To design and develop a prompt engineering solution that uses structured prompts to assist engineering students in research activities such as topic exploration, literature summarization, idea generation, technical writing, comparison of methods, and preparation of research reports.
 
-## 2. Problem Statement
+##  Problem Statement
 
 Engineering students spend considerable time searching for information, understanding technical concepts, summarizing research papers, comparing different approaches, and preparing technical documentation.
 
@@ -22,7 +22,7 @@ The proposed system uses prompt engineering to create an AI Research Assistant t
 
 The system is designed to support students while keeping human verification as an important part of the research process.
 
-## 3. Objectives
+##  Objectives
 
 * To design structured prompts for engineering research tasks.
 * To generate clear and organized technical responses.
@@ -33,7 +33,7 @@ The system is designed to support students while keeping human verification as a
 * To identify ethical issues related to AI-assisted research.
 * To demonstrate a practical prompt engineering workflow.
 
-## 4. Proposed Solution
+##  Proposed Solution
 
 The proposed AI Research Assistant accepts a research requirement from the user and processes it using specially designed prompts.
 
@@ -66,7 +66,7 @@ The system can perform tasks such as:
 7. Question generation
 8. Research idea evaluation
 
-## 5. Prompt Design
+##  Prompt Design
 
 A structured prompt is created using the following components:
 
@@ -108,7 +108,7 @@ Output Format:
 6. Possible Research Directions
 ```
 
-## 6. Prompt 1 – Research Topic Generation
+##  Prompt 1 – Research Topic Generation
 
 ### Prompt
 
@@ -137,7 +137,7 @@ Keep the ideas practical and suitable for an engineering project.
 | AI-Based Crop Disease Detection        | Computer Vision  | Agriculture          |
 | Automated Technical Document Analyzer  | NLP              | Engineering Research |
 
-## 7. Prompt 2 – Technical Explanation
+##  Prompt 2 – Technical Explanation
 
 ### Prompt
 
@@ -162,7 +162,7 @@ Use simple technical language and one practical example.
 
 The AI should provide a structured explanation of Transformer architecture with suitable examples instead of producing an unorganized paragraph.
 
-## 8. Prompt 3 – Research Paper Summarization
+##  Prompt 3 – Research Paper Summarization
 
 ### Prompt
 
@@ -189,7 +189,7 @@ Paper:
 
 This prompt reduces unnecessary information and keeps the summary focused on research-related information.
 
-## 9. Prompt 4 – Technology Comparison
+## Prompt 4 – Technology Comparison
 
 ### Prompt
 
@@ -213,7 +213,7 @@ End with a recommendation explaining when each approach should be preferred.
 
 The AI generates a structured comparison instead of a general explanation.
 
-## 10. Prompt 5 – Research Gap Identification
+##  Prompt 5 – Research Gap Identification
 
 ### Prompt
 
@@ -235,7 +235,7 @@ Identify:
 Clearly distinguish between established information and possible research directions.
 ```
 
-## 11. Prompt 6 – Technical Report Generation
+## Prompt 6 – Technical Report Generation
 
 ### Prompt
 
@@ -257,7 +257,7 @@ The section should include:
 Use formal academic language and approximately 300 words.
 ```
 
-## 12. Prompt Iteration
+## Prompt Iteration
 
 Prompt iteration is the process of improving a prompt based on the quality of the generated output.
 
@@ -321,7 +321,7 @@ Avoid unsupported claims and clearly mention when an example is illustrative.
 | Prompt 2 | Added context                      | More relevant                   |
 | Prompt 3 | Added role, constraints and format | Structured and focused response |
 
-## 13. AI Output Evaluation
+## AI Output Evaluation
 
 The generated output is evaluated using the following criteria.
 
@@ -361,84 +361,8 @@ Example:
 
 Total Score = 38/40
 
-## 14. Prompt Engineering Techniques Used
 
-### 14.1 Role Prompting
-
-The AI is given a specific role such as:
-
-```text
-Act as an engineering research assistant.
-```
-
-This helps establish the expected perspective.
-
-### 14.2 Context Setting
-
-Relevant background information is provided before the task.
-
-### 14.3 Task Decomposition
-
-Complex tasks are divided into smaller steps.
-
-### 14.4 Output Formatting
-
-The expected format is explicitly specified.
-
-Examples:
-
-* Table
-* Bullet points
-* Headings
-* Step-by-step explanation
-
-### 14.5 Constraints
-
-Restrictions are added to control the response.
-
-Example:
-
-```text
-Do not invent references or research findings.
-```
-
-### 14.6 Iterative Refinement
-
-The prompt is improved after evaluating the initial response.
-
-### 14.7 Few-Shot Prompting
-
-Examples can be provided to demonstrate the expected response style.
-
-## 15. Ethical Considerations
-
-AI-assisted engineering research must be used responsibly.
-
-### Accuracy
-
-AI-generated information should be verified using reliable technical sources.
-
-### Academic Integrity
-
-Students should not submit AI-generated work as completely original without proper review and acknowledgement when required.
-
-### Hallucination
-
-AI may generate incorrect technical information or fictional references. Important information must therefore be verified.
-
-### Data Privacy
-
-Confidential project data, personal information, or sensitive institutional information should not be entered into public AI systems without authorization.
-
-### Human Responsibility
-
-AI should assist the researcher rather than completely replace human judgment.
-
-### Bias
-
-AI-generated responses may contain biases based on the data used to train the model.
-
-## 16. Complete Prompt Repository
+## Complete Prompt Repository
 
 The project maintains a collection of reusable prompts.
 
@@ -453,7 +377,7 @@ The project maintains a collection of reusable prompts.
 | P07       | Question Generation   | Generate viva/research questions |
 | P08       | Project Evaluation    | Evaluate proposed project ideas  |
 
-## 17. Demonstration
+## Demonstration
 
 The project can be demonstrated using the following example.
 
@@ -509,7 +433,7 @@ Machine sensor readings.
 Output:
 Machine condition and possible maintenance alert.
 
-## 18. System Workflow
+##  System Workflow
 
 ```text
              USER
@@ -540,26 +464,8 @@ Machine condition and possible maintenance alert.
                           └──────> AI MODEL
 ```
 
-## 19. Advantages
 
-* Reduces time spent on initial research.
-* Produces structured technical information.
-* Supports engineering students during project development.
-* Makes complex information easier to understand.
-* Provides reusable prompts for different tasks.
-* Improves productivity.
-* Helps organize technical documentation.
-
-## 20. Limitations
-
-* AI output may contain incorrect information.
-* Generated references may require verification.
-* AI cannot replace expert engineering judgment.
-* Output quality depends heavily on prompt quality.
-* Domain-specific information may require additional validation.
-* Sensitive information should not be entered into public AI tools.
-
-## 21. Expected Results
+## Expected Results
 
 The proposed prompt engineering solution successfully demonstrates how structured prompts can improve AI-generated responses for engineering research activities.
 
@@ -567,7 +473,7 @@ Prompt iteration improves the relevance, organization, and completeness of the g
 
 The evaluation process also helps identify inaccurate or unsupported information before the final output is used.
 
-## 22. Future Scope
+## Future Scope
 
 The AI Research Assistant can be extended to:
 
@@ -581,76 +487,9 @@ The AI Research Assistant can be extended to:
 * Integrate with academic document management systems.
 * Provide domain-specific prompt templates.
 
-## 2 Final Presentation Structure
+## Final Presentation Structure
 
-### Slide 1 – Title
-
-AI Research Assistant Using Prompt Engineering
-
-### Slide 2 – Introduction
-
-* What is Prompt Engineering?
-* Need for structured AI interaction
-
-### Slide 3 – Problem Statement
-
-* Difficulty in engineering research
-* Time-consuming information processing
-
-### Slide 4 – Objectives
-
-* Research assistance
-* Structured information generation
-* Prompt refinement
-* Output evaluation
-
-### Slide 5 – Proposed Solution
-
-AI-powered research assistant using structured prompts.
-
-### Slide 6 – System Workflow
-
-User → Prompt → AI → Evaluation → Refinement → Final Output
-
-### Slide 7 – Prompt Design
-
-Role + Context + Task + Constraints + Output Format
-
-### Slide 8 – Prompt Examples
-
-Show P01, P03 and P05.
-
-### Slide 9 – Prompt Iteration
-
-Initial prompt → Improved prompt → Final prompt
-
-### Slide 10 – Output Evaluation
-
-Relevance, accuracy, completeness, clarity and hallucination control.
-
-### Slide 11 – Ethical Considerations
-
-* Accuracy
-* Privacy
-* Academic integrity
-* Bias
-* Human verification
-
-### Slide 12 – Demonstration
-
-Show an actual prompt and AI-generated response.
-
-### Slide 13 – Results
-
-* Better structured responses
-* Reduced manual effort
-* Improved consistency
-
-### Slide 14 – Advantages and Limitations
-
-### Slide 15 – Future Scope
-
-### Slide 16 – Conclusion
+https://docs.google.com/presentation/d/1xYKob1uTPCp16E7v3mOr60TML9pQLTmV/edit?usp=sharing&ouid=105928584738251968990&rtpof=true&sd=true
 
 ## Conclusion
 
